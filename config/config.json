@@ -1,0 +1,13 @@
+{
+  "rss_feeds": [
+    "https://de.cointelegraph.com/rss/tag/bitcoin",
+    "https://de.cointelegraph.com/rss/tag/ethereum",
+    "https://de.cointelegraph.com/rss/tag/litecoin",
+    "https://de.cointelegraph.com/rss/tag/monero"
+  ],
+  "days": 30,
+  "episodes": 50,
+  "visualization_save_path": "training_results.png",
+  "lookback_days": 30,
+  "results_dir": "results"
+}
