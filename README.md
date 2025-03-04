@@ -22,3 +22,28 @@ Zusätzlich kannst du über Kommandozeilenparameter das Lernen beeinflussen, z.�
    ```bash
    python -m venv venv
    source venv/bin/activate  # Auf Windows: venv\Scripts\activate
+
+
+```
+rl-sentiment-analysis/
+├── config/                    # Your existing config folder
+├── data/                      # Your existing data folder
+├── utils/                     # Your existing utils folder
+├── api/                       # New API folder
+│   └── app.py                 # Flask API service
+├── frontend/                  # New React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── RSSFeedAnalyzer.jsx
+│   │   │   └── TrainingMonitor.jsx
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── package.json
+│   └── tailwind.config.js
+├── train.py                   # Your existing training script
+├── dashboard.py               # Your existing dashboard
+├── requirements.txt           # Updated requirements file
+└── README.md                  # New documentation
+```
